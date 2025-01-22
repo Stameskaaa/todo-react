@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #fefefe;
+
+  button {
+    cursor: pointer;
+    padding: 16px;
+    box-sizing: border-box;
+    display: flex;
+  }
+  input {
+    color: #e9dfdd;
+    padding: 10px 26px 10px 10px;
+    width: 100%;
+  }
+  input::placeholder {
+    color: #c5c5c5;
+  }
+}
