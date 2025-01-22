@@ -1,6 +1,7 @@
 .container {
   width: 100%;
   background-color: #fefefe;
+  font-size: 1.3rem;
 
   input {
     width: 24px;
@@ -13,7 +14,19 @@
       border-color: rgba(0, 131, 0, 0.452);
       visibility: visible;
     }
+    .content {
+      color: #d7d7d7;
+    }
+    .cross_out {
+      width: 100%;
+    }
   }
+}
+
+.content {
+  position: relative;
+
+  transition: color 0.2s;
 }
 
 .checkbox_label {
@@ -41,19 +54,29 @@
   border-radius: 50%;
   border: 1px solid #f4f4f4;
   box-sizing: border-box;
-  width: 22px;
+  width: 26px;
   aspect-ratio: 1/1;
 }
 
 .checkbox_circle {
+  transition: visibility 0.03s;
   visibility: hidden;
   z-index: 100;
   border-bottom: 2px solid rgba(0, 131, 0, 0.452);
   border-right: 2px solid rgba(0, 131, 0, 0.452);
-  width: 6px;
-  height: 10px;
+  width: 8px;
+  height: 12px;
   transform: rotate(45deg);
   position: relative;
-  left: 6px;
-  top: 3px;
+  left: 7px;
+  top: 4px;
+}
+
+.cross_out {
+  background-color: #d7d7d7;
+  width: 0;
+  transition: width 0.15s;
+  height: 2px;
+  position: absolute;
+  top: 50%;
 }

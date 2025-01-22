@@ -7,8 +7,8 @@ export const ArrowIcon = () => {
       xmlnsXlink="http://www.w3.org/1999/xlink"
       x="0px"
       y="0px"
-      width="16px"
-      height="16px"
+      width="20px"
+      height="20px"
       viewBox="0 0 284.929 284.929"
       style={{ background: 'new 0 0 284.929 284.929' }}
       xmlSpace="preserve">
