@@ -2,7 +2,7 @@ import { TodoItem } from '../TodoItem/TodoItem';
 import styles from './todoList.module.css';
 import { TaskList } from '../../types/types';
 import { activeListName } from '../../types/types';
-import { AddTaskIcon } from '../../icons/AddTask';
+import { AddTaskIcon } from '../../icons/AddTaskIcon';
 import { Dispatch, SetStateAction } from 'react';
 
 interface Props {

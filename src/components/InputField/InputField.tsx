@@ -1,8 +1,8 @@
 import { useRef, useState } from 'react';
-import { ArrowIcon } from '../../icons/arrow';
 import styles from './inputFiled.module.css';
 import { TaskList, Task } from '../../types/types';
 import { Dispatch, SetStateAction } from 'react';
+import { ArrowIcon } from '../../icons/ArrowIcon';
 
 interface Props {
   setList: Dispatch<SetStateAction<TaskList>>;
